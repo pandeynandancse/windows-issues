@@ -1,0 +1,19 @@
+Issue: My pendrive was 28gb but it was showing 405kb free out of 405kb.
+
+
+Link to guide: https://www.eassos.com/blog/how-to-restore-usb-drive-back-to-full-capacity/
+
+Used tool: Command prompt as admin
+
+Resolved issue via following steps::
+a) diskpart
+
+b) list disk
+
+c) select disk 1      > here 1 is number of pendrive 
+
+d) clear
+
+e) create partition primary
+
+f) format fs=fat32 quick
