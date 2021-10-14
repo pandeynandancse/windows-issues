@@ -17,3 +17,5 @@ d) clean
 e) create partition primary
 
 f) format fs=fat32 quick
+
+
